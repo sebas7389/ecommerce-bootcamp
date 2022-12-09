@@ -1,6 +1,17 @@
+
+@import "abstracts/variables";
+@import"components/card";
+
+@import"base/reset";
+@import"base/typography";
+
+@import"layout/header";
+@import"pages/home";
+
+
 .main-nav {
-    background-color: blue;
-    color: white;
+    background-color: $color-bg-primary;
+    color:$color-text-ligth;
     height: 60px;
     display: flex;
     align-items: center;
@@ -10,13 +21,13 @@
 
         .nav-item {
             text-decoration: none;
-            color: white;
+            color:$color-text-ligth;
             &.active {
                 color: cornflowerblue;
                 font-weight: bold;
 
             }
-            &:hover{
+            &:hover {
                 font-size: 1,2rem;
                 color: darkred;
             }
