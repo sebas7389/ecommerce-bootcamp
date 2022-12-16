@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    background-color: $color-dark-gray;
+    &__column {
+        padding: 1rem 1.5rem;
+    }
+    &__contact-link {
+        color: white;
+    }
+}
